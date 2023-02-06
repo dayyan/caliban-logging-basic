@@ -14,7 +14,8 @@ lazy val root = (project in file("."))
     libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.4.5",
     libraryDependencies += "ch.qos.logback" % "logback-classic"% "1.4.5",
     libraryDependencies += "dev.zio" %% "zio-logging" % "2.1.8",
-    libraryDependencies += "dev.zio" %% "zio-logging-slf4j" % "2.1.8"
+    libraryDependencies += "dev.zio" %% "zio-logging-slf4j" % "2.1.8",
+    libraryDependencies += "dev.zio" %% "zio-http" % "0.0.4"
   )
 
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
