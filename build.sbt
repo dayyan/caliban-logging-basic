@@ -13,6 +13,7 @@ lazy val root = (project in file("."))
     libraryDependencies += "com.github.ghostdogpr" %% "caliban-zio-http"   % "2.0.2", // routes for zio-http
     libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.4.5",
     libraryDependencies += "ch.qos.logback" % "logback-classic"% "1.4.5",
+    libraryDependencies += "dev.zio" %% "zio-logging" % "2.1.8",
     libraryDependencies += "dev.zio" %% "zio-logging-slf4j" % "2.1.8"
   )
 

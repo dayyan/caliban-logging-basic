@@ -15,6 +15,7 @@ object ExampleApp extends ZIOAppDefault {
 
   override def run =
     (for {
+      _           <- ZIO.logInfo("Starting server.")
       interpreter <- ExampleApi.api.interpreter
       _           <- Server
                       .start(
